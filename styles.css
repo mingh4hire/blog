@@ -1,0 +1,22 @@
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+body section {
+    background: lightblue;
+    padding: 30px;
+}
+
+body section:nth-child(2n) {
+    background: lightpink;
+}
+
+[content] {
+    display: flex;
+    justify-content: space-around;
+}
+
+[center] {
+    text-align: center;
+}
