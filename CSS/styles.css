@@ -1,0 +1,42 @@
+@import "body.css";
+@import "lastdiv.css";
+@import "table.css";
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+body section {
+    background: lightblue;
+    padding: 30px;
+}
+
+body section:nth-child(2n) {
+    background: lightpink;
+}
+
+[content] {
+    display: flex;
+    justify-content: space-around;
+}
+
+[center] {
+    text-align: center;
+}
+
+[flexcenter] {
+    display: flex;
+    justify-content: space-around;
+}
+
+[copyright] {
+    font-style: italic;
+
+}
+[aboutme] {
+    font-style:underline;
+    color:darkolivegreen;
+}
+[aboutmore]{
+    color:darkgreen;
+}
