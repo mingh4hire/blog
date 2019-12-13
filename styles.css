@@ -1,6 +1,7 @@
 ul li {
     list-style: none;
     display: inline;
+    margin-left: 10px;
 }
 
 body section {
@@ -19,4 +20,9 @@ body section:nth-child(2n) {
 
 [center] {
     text-align: center;
+}
+
+[activesec] {
+    background: darkblue;
+    border: solid 2px purple;
 }

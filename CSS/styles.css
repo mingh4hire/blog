@@ -1,9 +1,13 @@
 @import "body.css";
 @import "lastdiv.css";
 @import "table.css";
+@import "card.css";
 ul li {
     list-style: none;
     display: inline;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
 }
 
 body section {
@@ -31,12 +35,16 @@ body section:nth-child(2n) {
 
 [copyright] {
     font-style: italic;
+}
 
-}
 [aboutme] {
-    font-style:underline;
-    color:darkolivegreen;
+    font-style: underline;
+    color: darkolivegreen;
 }
-[aboutmore]{
-    color:darkgreen;
+
+[aboutmore] {
+    color: darkgreen;
+}
+activesec{
+    background:peru;
 }
