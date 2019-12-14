@@ -1,30 +1,33 @@
 <!doctype html>
-<h1 center>Welcome to my blog</h1>
+<h1 center titlebar >Welcome to my blog
+</h1>
 
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/styles.css">
 </head>
-<header>
-
+<header headerbar>
     <nav>
         <ul>
 
         </ul>
     </nav>
 </header>
-<div class="cardcontainer">
-    <div class="card" data="johndoe">
+<div style="margin-top:300px">
+    <div class="cardcontainer" style="margin-top:33px; top:33px;">
+        <div class="card" data="johndoe">
 
-        <figure>
-            <img src="assets/avatar1.jpg" alt="Avatar">
-            <figure-caption>Jackson, MS</figure-caption>
-        </figure>
-        <div class="container">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
+            <figure>
+                <img src="assets/avatar1.jpg" alt="Avatar">
+                <figure-caption nowrap centerfigurecaption>Jackson, MS</figure-caption>
+            </figure>
+            <div class="container">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+
+
+            </div>
             <div>
                 <a href="http://www.facebook.com"><img src="assets/facebook.png" width=20 height=20>
-
                 </a>
                 <a href="http://www.twitter.com"> <img src="assets/twitter.png" width=20 height=20 />
                 </a>
@@ -32,15 +35,16 @@
                 </a>
             </div>
         </div>
-    </div>
-    <div class="card" data="maryallen">
-        <figure>
-            <img src="assets/avatar2.jpg" alt="Avatar">
-            <figure-caption>Omaha, NE</figure-caption>
-        </figure>
-        <div class="container">
-            <h4><b>Mary Allen</b></h4>
-            <p>Architect & Musician</p>
+        <div class="card" data="maryallen">
+            <figure>
+                <img src="assets/avatar2.jpg" alt="Avatar">
+                <figure-caption nowrap>Omaha, NE</figure-caption>
+            </figure>
+            <div class="container">
+                <h4><b>Mary Allen</b></h4>
+                <p>Architect & Musician</p>
+
+            </div>
             <div>
                 <a href="http://www.facebook.com">
 
@@ -53,15 +57,37 @@
                 </a>
             </div>
         </div>
-    </div>
-    <div class="card" data="davidgreen">
-        <figure>
-            <img src="assets/avatar3.jpg" alt="Avatar">
-            <figure-caption>Greenhaven, OK</figure-caption>
-        </figure>
-        <div class="container">
-            <h4><b>David Green</b></h4>
-            <p>Doctor & Engineer</p>
+        <div class="card" data="davidgreen">
+            <figure>
+                <img src="assets/avatar3.jpg" alt="Avatar">
+                <figure-caption nowrap>Greenhaven, OK</figure-caption>
+            </figure>
+            <div class="container">
+                <h4><b>David Green</b></h4>
+                <p>Doctor & Engineer</p>
+
+            </div>
+            <div>
+                <a href="http://www.facebook.com"><img src="assets/facebook.png" width=20 height=20>
+
+                </a>
+                <a href="http://www.twitter.com"> <img src="assets/twitter.png" width=20 height=20 />
+                </a>
+                <a href="http://www.linkedin.com"> <img src="assets/linkedin.png" width=20 height=20 />
+                </a>
+            </div>
+        </div>
+        <div class="card" data="paulbunyan">
+            <figure>
+                <img src="assets/avatar4.jpg" alt="Avatar">
+                <figure-caption nowrap>Columbia, SC</figure-caption>
+            </figure>
+            <div class="container">
+                <h4><b>Paul Bunyan</b></h4>
+                <p>Nurse & Engineer</p>
+                <span>My friend from good old south</span>
+
+            </div>
             <div>
                 <a href="http://www.facebook.com"><img src="assets/facebook.png" width=20 height=20>
 
@@ -73,43 +99,24 @@
             </div>
         </div>
     </div>
-    <div class="card" data="paulbunyan">
-        <figure>
-            <img src="assets/avatar4.jpg" alt="Avatar">
-            <figure-caption>Columbia, SC</figure-caption>
-        </figure>
-        <div class="container">
-            <h4><b>Paul Bunyan</b></h4>
-            <p>Nurse & Engineer</p>
-            <span>My friend from good old south</span>
-            <div>
-                <a href="http://www.facebook.com"><img src="assets/facebook.png" width=20 height=20>
 
-                </a>
-                <a href="http://www.twitter.com"> <img src="assets/twitter.png" width=20 height=20 />
-                </a>
-                <a href="http://www.linkedin.com"> <img src="assets/linkedin.png" width=20 height=20 />
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+    <div content>
+        <div>
 
-<div content>
-    <div>
-
-        <section id="aboutme" data="aboutme">
-            <p aboutmeheader>About me</p>
-            <h1>I am a developer writing some interesting html and css code</h1>
-        </section>
+            <section id="aboutme" data="aboutme" class="cardme">
+                <p aboutmeheader>About me</p>
+                <h1>I am a developer writing some interesting html and css code</h1>
+                <h2>Hobbies: Coding, Interviewing having fun</h2>
+            </section>
 
 
 
-        <section id="aboutme2" data="aboutme2">
-            <p aboutmore>more about me</p>
-            <h1>I am interested in becoming a stronger programmer with better algorithms writing code faster and using
-                the latest technologies</h1>
-            <pre class=" language-c"><code class=" language-c"><span class="token property">#include <span class="token string">&lt;stdio.h&gt;</span></span>
+            <section id="aboutme2" data="aboutme2" class="cardme"> 
+                <p aboutmore>more about me</p>
+                <h1>I am interested in becoming a stronger programmer with better algorithms writing code faster and
+                    using
+                    the latest technologies</h1>
+                <pre class=" language-c"><code class=" language-c"><span class="token property">#include <span class="token string">&lt;stdio.h&gt;</span></span>
 
                 <span class="token keyword">int</span> <span class="token function">main<span class="token punctuation">(</span></span><span class="token punctuation">)</span>
                 <span class="token punctuation">{</span>
@@ -117,27 +124,28 @@
                   <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
                 <span class="token punctuation">}</span>
                 </code><div ng-hide="dataLoaded4" class="ng-hide">Loading source...</div></pre>
-        </section>
+            </section>
 
 
 
-        <section id="aboutme3" data="aboutme3">
-            <h1>I would like to get a team together to program as a team and get better together.</h1>
-            <div center>
-                <img src="assets/teamwork.jpg.jpg" />
-            </div>
-        </section>
+            <section id="aboutme3" data="aboutme3" class="cardme"> 
+                <h1>I would like to get a team together to program as a team and get better together.</h1>
+                <div center>
+                    <img src="assets/teamwork.jpg.jpg" />
+                </div>
+            </section>
 
-        <section id="more links" center flexcenter data="morelinks">
-            <div style="flex:1"> For project 1</div>
-            <div style="flex:1">
-                <a href="aboutprogramming.html">about programming</a>
-                <a href="aboutcompsci.html">about computer science</a>
-                <a href="aboutlife.html">about life</a>
-                <a href="index.html">home</a>
-            </div>
-            <div style="flex:1" copyright> @Copyright mh 2019</div>
-        </section>
+            <section id="more links" center flexcenter data="morelinks" class="cardme"> 
+                <div style="flex:1"> For project 1</div>
+                <div style="flex:1">
+                    <a href="aboutprogramming.html">about programming</a>
+                    <a href="aboutcompsci.html">about computer science</a>
+                    <a href="aboutlife.html">about life</a>
+                    <a href="index.html">home</a>
+                </div>
+                <div style="flex:1" copyright> @Copyright mh 2019</div>
+            </section>
+        </div>
     </div>
 </div>
 <script src="load.js"></script>
