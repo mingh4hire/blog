@@ -7,8 +7,7 @@
     row-gap: 5px;
     column-gap: 5px;
     justify-content: space-evenly;
-    grid-template-columns: 100px 100px;
-    width: 500px;
+    grid-template-columns: 100px 100px 100px;
     /*Make the grid smaller than the container*/
 }
 
@@ -29,5 +28,35 @@
 .cardcontainer {
     display: grid;
     justify-content: space-evenly;
-    grid-template-columns:500px;
+    grid-template-columns: 500px;
+}
+
+[nowrap] {
+    word-wrap: none;
+    white-space: nowrap;
+}
+
+[centerfigurecaption] {
+    text-align: right;
+    display: flex;
+}
+
+.cardme {
+    /* Add shadows to create the "card" effect */
+    padding-top: 33px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display: grid;
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: space-evenly;
+    grid-template-columns: 300px;
+    /*Make the grid smaller than the container*/
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.cardme:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
